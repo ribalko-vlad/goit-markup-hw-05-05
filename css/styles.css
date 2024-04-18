@@ -632,6 +632,7 @@ p {
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px;
 
 }
 .model-window{
@@ -662,7 +663,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 0;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 72px 24px 24px;
+    
 
 }
 .model-button:hover{
@@ -695,4 +696,16 @@ fill: #ffffff;
 }
 .model-form{
     margin-bottom: 8px;
+}
+.model-label{
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    display: block;
+    margin-bottom: 4px;
+
+}
+.div-model{
+    position: relative;
 }
