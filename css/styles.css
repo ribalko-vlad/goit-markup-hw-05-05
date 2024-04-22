@@ -735,7 +735,7 @@ fill: #ffffff;
 
 }
 .input-model:focus {
-    fill: #4D5AE5;
+    border-color: #4D5AE5;
     /* Зміна кольору іконки при фокусі на полі вводу */
 }
 .model-svg-one{
