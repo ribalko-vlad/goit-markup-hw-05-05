@@ -646,7 +646,7 @@ p {
     box-shadow:0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-padding-top: 72px;
+
 
 }
 .model-button{
@@ -663,18 +663,26 @@ padding-top: 72px;
     padding: 0;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px 24px;
    
     height: 24px;
 
 }
-.model-button:hover .model-svg{
+.model-button:hover{
     background-color: #404bbf;
     border: none;
 
 }
-.model-button:focus .model-svg{
+.model-button:focus{
     background-color: #404bbf;
     border: none;
+}
+.model-button:focus .model-svg{
+    fill: #ffffff;
+
+}
+.model-button:hover .model-svg {
+    fill: #ffffff;
 }
 .model-svg{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
