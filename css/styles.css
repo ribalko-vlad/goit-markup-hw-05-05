@@ -794,6 +794,7 @@ fill: #ffffff;
     letter-spacing: 0.04em;
     color: #8e8f99;
 
+
 }
 .span-priv{
     width: 16px;
@@ -831,4 +832,14 @@ fill: #ffffff;
         margin-left: 80px;
         margin: 20px auto 0;
         border-radius: 4px;
+}
+
+
+.label-comment{
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: #8e8f99;
+display: block;
+margin-bottom: 4px;
 }
