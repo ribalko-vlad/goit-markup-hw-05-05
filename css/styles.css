@@ -734,7 +734,7 @@ fill: #ffffff;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.model-input:focus+.model-svg-one {
+.input-model:focus {
     fill: #4D5AE5;
     /* Зміна кольору іконки при фокусі на полі вводу */
 }
