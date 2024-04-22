@@ -805,7 +805,7 @@ fill: #ffffff;
     justify-content: center;
     fill: transparent;
 }
-.cinput-privacy:checked+.label-privacy .span-priv {
+.input-privacy:checked+.label-privacy .span-priv {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
